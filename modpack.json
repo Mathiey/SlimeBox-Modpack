@@ -1,6 +1,6 @@
 {
 	"name": "SlimeBox",
-	"version": "1.4.0",
+	"version": "1.0.1",
 	"minecraft": "1.21.1",
 	"loader": "neoforge",
 	"loaderVersion": "21.1.259",
@@ -12,6 +12,7 @@
 		{ "slug": "handcrafted", "version": "4.0.3" },
 		{ "slug": "resourceful-lib", "version": "x99nCLTm" },
 		{ "slug": "waystones", "version": "6Z6MQ6os" },
+		{ "slug": "balm", "version": "21.0.66+neoforge-1.21.1" },
 		{ "slug": "ad-astra", "version": "1.16.26" },
 		{ "slug": "resourceful-config", "version": "3.0.11" },
 		{ "slug": "common-storage-lib", "version": "SCkdlli6" },
@@ -34,7 +35,8 @@
 		{ "slug": "incendium", "version": "5.4.4" },
 		{ "slug": "nullscape", "version": "1.2.14" },
 		{ "slug": "tectonic", "version": "3.0.28-neoforge-21.1" },
-		{ "slug": "lithostitched", "version": "1.8.0-neoforge-21.1" }
+		{ "slug": "lithostitched", "version": "1.8.0-neoforge-21.1" },
+		{ "slug": "the-twilight-forest", "version": "4.8.3345", "source": "curseforge", "projectId": 227639, "fileId": 7797302 }
 	],
 	"shaderpacks": [
 		{ "slug": "complementary-reimagined", "version": "r5.9.3" },
