@@ -1,6 +1,6 @@
 {
   "name": "SlimeBox",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "minecraft": "1.21.1",
   "loader": "neoforge",
   "loaderVersion": "21.1.259",
@@ -14,7 +14,12 @@
     { "slug": "lithium", "version": "mc1.21.1-0.15.4-neoforge" },
     { "slug": "modernfix", "version": "5.27.26+mc1.21.1" },
     { "slug": "ferrite-core", "version": "7.0.3-neoforge" },
-    { "slug": "journeymap", "version": "1.21.1-6.0.9+neoforge" }
+    { "slug": "journeymap", "version": "1.21.1-6.0.9+neoforge" },
+    { "slug": "terralith", "version": "2.6.2" },
+    { "slug": "incendium", "version": "5.4.4" },
+    { "slug": "nullscape", "version": "1.2.14" },
+    { "slug": "tectonic", "version": "3.0.28-neoforge-21.1" },
+    { "slug": "lithostitched", "version": "1.8.0-neoforge-21.1" }
   ],
   "shaderpacks": [
     { "slug": "complementary-reimagined", "version": "r5.9.3" },
