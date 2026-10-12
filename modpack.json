@@ -1,0 +1,10 @@
+{
+  "name": "SlimeBox",
+  "version": "1.0.0",
+  "minecraft": "1.21.1",
+  "loader": "neoforge",
+  "loaderVersion": "21.1.259",
+  "mods": [
+    { "slug": "create", "version": "6.0.10+mc1.21.1" }
+  ]
+}
