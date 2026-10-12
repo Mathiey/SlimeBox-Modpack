@@ -1,10 +1,25 @@
 {
   "name": "SlimeBox",
-  "version": "1.0.0",
+  "version": "1.3.0",
   "minecraft": "1.21.1",
   "loader": "neoforge",
   "loaderVersion": "21.1.259",
   "mods": [
-    { "slug": "create", "version": "6.0.10+mc1.21.1" }
-  ]
+    { "slug": "create", "version": "6.0.10+mc1.21.1" },
+    { "slug": "jei", "version": "19.64.0.453" },
+    { "slug": "mezzconfig", "version": "0.6.8" },
+    { "slug": "jade", "version": "15.10.6+neoforge" },
+    { "slug": "sodium", "version": "mc1.21.1-0.8.13-neoforge" },
+    { "slug": "iris", "version": "1.8.14-beta.1+1.21.1-neoforge" },
+    { "slug": "lithium", "version": "mc1.21.1-0.15.4-neoforge" },
+    { "slug": "modernfix", "version": "5.27.26+mc1.21.1" },
+    { "slug": "ferrite-core", "version": "7.0.3-neoforge" },
+    { "slug": "journeymap", "version": "1.21.1-6.0.9+neoforge" }
+  ],
+  "shaderpacks": [
+    { "slug": "complementary-reimagined", "version": "r5.9.3" },
+    { "slug": "complementary-unbound", "version": "r5.9.3" },
+    { "slug": "bsl-shaders", "version": "10.1.8" }
+  ],
+  "resourcepacks": []
 }
