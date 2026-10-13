@@ -1,6 +1,6 @@
 {
     "name": "SlimeBox",
-    "version": "1.1.9",
+    "version": "1.2.0",
     "minecraft": "1.21.1",
     "loader": "neoforge",
     "loaderVersion": "21.1.259",
@@ -8,6 +8,8 @@
         { "slug": "ad-astra", "version": "1.16.26" },
         { "slug": "ae2", "version": "19.2.18" },
         { "slug": "aether", "version": "1.21.1-1.5.10-neoforge" },
+        { "slug": "almost-unified-ie", "version": "QNmpHq1W" },
+        { "slug": "almostunified", "version": "e8iYxxI3" },
         { "slug": "aquamirae", "version": "RSbxcVPE" },
         { "slug": "architectury-api", "version": "13.0.11+neoforge" },
         { "slug": "ars-nouveau", "version": "yWDnir1o" },
@@ -17,6 +19,7 @@
         { "slug": "better-combat", "version": "2.4.0+1.21.1-neoforge" },
         { "slug": "cloth-config", "version": "15.0.140+neoforge" },
         { "slug": "cobblemon", "version": "1.8.2" },
+        { "slug": "collective", "version": "m1k4DyKx" },
         { "slug": "common-storage-lib", "version": "SCkdlli6" },
         { "slug": "create", "version": "6.0.10+mc1.21.1" },
         { "slug": "createaddition", "version": "neoforge-1.21.1-1.6.0" },
@@ -26,6 +29,7 @@
         { "slug": "crop-critters", "version": "B5anPvZD" },
         { "slug": "curios", "version": "9.5.1+1.21.1" },
         { "slug": "deeperdarker", "version": "1.4.1-neoforge-1.21.1" },
+        { "slug": "difficulty-lock", "version": "cnReiboJ" },
         { "slug": "dungeons-and-taverns", "version": "v4.4.4+mod" },
         { "slug": "emi", "version": "1.1.24+1.21.1+neoforge" },
         { "slug": "enderman-overhaul", "version": "TH9YXp9r" },
@@ -106,5 +110,9 @@
         { "slug": "better-mob-models", "version": "EMsW9nQI" },
         { "slug": "cobblemon-interface", "version": "8SjyMuZO" },
         { "slug": "cobblemon-interface-modded", "version": "pfFd0Jh4" }
+    ],
+    "overrides": [
+        "config/Mekanism/world.toml",
+        "config/cobblemon/main.json"
     ]
 }
