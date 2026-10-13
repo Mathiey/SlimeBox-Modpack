@@ -1,6 +1,6 @@
 {
     "name": "SlimeBox",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "minecraft": "1.21.1",
     "loader": "neoforge",
     "loaderVersion": "21.1.259",
@@ -19,7 +19,6 @@
         { "slug": "better-combat", "version": "2.4.0+1.21.1-neoforge" },
         { "slug": "cloth-config", "version": "15.0.140+neoforge" },
         { "slug": "cobblemon", "version": "1.8.2" },
-        { "slug": "collective", "version": "m1k4DyKx" },
         { "slug": "common-storage-lib", "version": "SCkdlli6" },
         { "slug": "create", "version": "6.0.10+mc1.21.1" },
         { "slug": "createaddition", "version": "neoforge-1.21.1-1.6.0" },
@@ -29,7 +28,6 @@
         { "slug": "crop-critters", "version": "B5anPvZD" },
         { "slug": "curios", "version": "9.5.1+1.21.1" },
         { "slug": "deeperdarker", "version": "1.4.1-neoforge-1.21.1" },
-        { "slug": "difficulty-lock", "version": "cnReiboJ" },
         { "slug": "dungeons-and-taverns", "version": "v4.4.4+mod" },
         { "slug": "emi", "version": "1.1.24+1.21.1+neoforge" },
         { "slug": "enderman-overhaul", "version": "TH9YXp9r" },
