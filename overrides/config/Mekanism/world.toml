@@ -1,490 +1,129 @@
-#Allows chunks to retrogen Mekanism salt and ore blocks. In general when enabling this you also want to bump the userWorldGenVersion.
-enableRegeneration = false
-#Change this value to cause Mekanism to regen its ore in all loaded chunks that have a version lower than this.
-# Default: 0
-# Range: > 0
-userWorldGenVersion = 0
-
-#Generation Settings for Tin ore.
-[tin]
-	#Determines if Tin ore should be added to world generation.
-	shouldGenerate = true
-
-	#Small Tin Vein Generation Settings.
-	[tin.small]
-		#Determines if Small Tin Veins should be added to world generation. Note: Requires generating tin ore to be enabled.
-		shouldGenerate = true
-		#Chance that Small Tin Veins generates in a chunk.
-		# Default: 14
-		# Range: 1 ~ 256
-		perChunk = 14
-		#Maximum number of blocks in a Small Tin Vein.
-		# Default: 4
-		# Range: 1 ~ 64
-		maxVeinSize = 4
-		#Chance that blocks that are directly exposed to air in a Small Tin Vein are not placed.
-		# Default: 0.0
-		# Range: 0.0 ~ 1.0
-		discardChanceOnAirExposure = 0.0
-		#Distribution shape for placing Small Tin Veins.
-		#Allowed Values: TRAPEZOID, UNIFORM
-		shape = "TRAPEZOID"
-		#Half length of short side of trapezoid, only used if the shape is Trapezoid. A value of zero means the shape is a triangle.
-		plateau = 0
-
-		#Minimum (inclusive) height anchor for Small Tin Veins. This defines the minimum y-level that Small Tin Veins can spawn at.
-		[tin.small.minInclusive]
-			#The type of anchor. This is used to define how the value is used in calculating the y-level.
-			#Absolute (y = value)
-			#Above Bottom (y = minY + value)
-			#Below Top (y = depth - 1 + minY - value)
-			#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
-			type = "ABSOLUTE"
-			#Value used for calculating the y-level for the anchor based on the type.
-			value = -20
-
-		#Maximum (inclusive) height anchor for Small Tin Veins. This defines the maximum y-level that Small Tin Veins can spawn at.
-		[tin.small.maxInclusive]
-			#The type of anchor. This is used to define how the value is used in calculating the y-level.
-			#Absolute (y = value)
-			#Above Bottom (y = minY + value)
-			#Below Top (y = depth - 1 + minY - value)
-			#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
-			type = "ABSOLUTE"
-			#Value used for calculating the y-level for the anchor based on the type.
-			value = 94
-
-	#Large Tin Vein Generation Settings.
-	[tin.large]
-		#Determines if Large Tin Veins should be added to world generation. Note: Requires generating tin ore to be enabled.
-		shouldGenerate = true
-		#Chance that Large Tin Veins generates in a chunk.
-		# Default: 12
-		# Range: 1 ~ 256
-		perChunk = 12
-		#Maximum number of blocks in a Large Tin Vein.
-		# Default: 9
-		# Range: 1 ~ 64
-		maxVeinSize = 9
-		#Chance that blocks that are directly exposed to air in a Large Tin Vein are not placed.
-		# Default: 0.0
-		# Range: 0.0 ~ 1.0
-		discardChanceOnAirExposure = 0.0
-		#Distribution shape for placing Large Tin Veins.
-		#Allowed Values: TRAPEZOID, UNIFORM
-		shape = "TRAPEZOID"
-		#Half length of short side of trapezoid, only used if the shape is Trapezoid. A value of zero means the shape is a triangle.
-		plateau = 0
-
-		#Minimum (inclusive) height anchor for Large Tin Veins. This defines the minimum y-level that Large Tin Veins can spawn at.
-		[tin.large.minInclusive]
-			#The type of anchor. This is used to define how the value is used in calculating the y-level.
-			#Absolute (y = value)
-			#Above Bottom (y = minY + value)
-			#Below Top (y = depth - 1 + minY - value)
-			#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
-			type = "ABSOLUTE"
-			#Value used for calculating the y-level for the anchor based on the type.
-			value = -32
-
-		#Maximum (inclusive) height anchor for Large Tin Veins. This defines the maximum y-level that Large Tin Veins can spawn at.
-		[tin.large.maxInclusive]
-			#The type of anchor. This is used to define how the value is used in calculating the y-level.
-			#Absolute (y = value)
-			#Above Bottom (y = minY + value)
-			#Below Top (y = depth - 1 + minY - value)
-			#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
-			type = "ABSOLUTE"
-			#Value used for calculating the y-level for the anchor based on the type.
-			value = 72
-
-#Generation Settings for Osmium ore.
-[osmium]
-	#Determines if Osmium ore should be added to world generation.
-	shouldGenerate = true
-
-	#Upper Osmium Vein Generation Settings.
-	[osmium.upper]
-		#Determines if Upper Osmium Veins should be added to world generation. Note: Requires generating osmium ore to be enabled.
-		shouldGenerate = true
-		#Chance that Upper Osmium Veins generates in a chunk.
-		# Default: 65
-		# Range: 1 ~ 256
-		perChunk = 65
-		#Maximum number of blocks in a Upper Osmium Vein.
-		# Default: 7
-		# Range: 1 ~ 64
-		maxVeinSize = 7
-		#Chance that blocks that are directly exposed to air in a Upper Osmium Vein are not placed.
-		# Default: 0.0
-		# Range: 0.0 ~ 1.0
-		discardChanceOnAirExposure = 0.0
-		#Distribution shape for placing Upper Osmium Veins.
-		#Allowed Values: TRAPEZOID, UNIFORM
-		shape = "TRAPEZOID"
-		#Half length of short side of trapezoid, only used if the shape is Trapezoid. A value of zero means the shape is a triangle.
-		plateau = 8
-
-		#Minimum (inclusive) height anchor for Upper Osmium Veins. This defines the minimum y-level that Upper Osmium Veins can spawn at.
-		[osmium.upper.minInclusive]
-			#The type of anchor. This is used to define how the value is used in calculating the y-level.
-			#Absolute (y = value)
-			#Above Bottom (y = minY + value)
-			#Below Top (y = depth - 1 + minY - value)
-			#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
-			type = "ABSOLUTE"
-			#Value used for calculating the y-level for the anchor based on the type.
-			value = 72
-
-		#Maximum (inclusive) height anchor for Upper Osmium Veins. This defines the maximum y-level that Upper Osmium Veins can spawn at.
-		[osmium.upper.maxInclusive]
-			#The type of anchor. This is used to define how the value is used in calculating the y-level.
-			#Absolute (y = value)
-			#Above Bottom (y = minY + value)
-			#Below Top (y = depth - 1 + minY - value)
-			#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
-			type = "BELOW_TOP"
-			#Value used for calculating the y-level for the anchor based on the type.
-			value = -24
-
-	#Middle Osmium Vein Generation Settings.
-	[osmium.middle]
-		#Determines if Middle Osmium Veins should be added to world generation. Note: Requires generating osmium ore to be enabled.
-		shouldGenerate = true
-		#Chance that Middle Osmium Veins generates in a chunk.
-		# Default: 6
-		# Range: 1 ~ 256
-		perChunk = 6
-		#Maximum number of blocks in a Middle Osmium Vein.
-		# Default: 9
-		# Range: 1 ~ 64
-		maxVeinSize = 9
-		#Chance that blocks that are directly exposed to air in a Middle Osmium Vein are not placed.
-		# Default: 0.0
-		# Range: 0.0 ~ 1.0
-		discardChanceOnAirExposure = 0.0
-		#Distribution shape for placing Middle Osmium Veins.
-		#Allowed Values: TRAPEZOID, UNIFORM
-		shape = "TRAPEZOID"
-		#Half length of short side of trapezoid, only used if the shape is Trapezoid. A value of zero means the shape is a triangle.
-		plateau = 0
-
-		#Minimum (inclusive) height anchor for Middle Osmium Veins. This defines the minimum y-level that Middle Osmium Veins can spawn at.
-		[osmium.middle.minInclusive]
-			#The type of anchor. This is used to define how the value is used in calculating the y-level.
-			#Absolute (y = value)
-			#Above Bottom (y = minY + value)
-			#Below Top (y = depth - 1 + minY - value)
-			#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
-			type = "ABSOLUTE"
-			#Value used for calculating the y-level for the anchor based on the type.
-			value = -32
-
-		#Maximum (inclusive) height anchor for Middle Osmium Veins. This defines the maximum y-level that Middle Osmium Veins can spawn at.
-		[osmium.middle.maxInclusive]
-			#The type of anchor. This is used to define how the value is used in calculating the y-level.
-			#Absolute (y = value)
-			#Above Bottom (y = minY + value)
-			#Below Top (y = depth - 1 + minY - value)
-			#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
-			type = "ABSOLUTE"
-			#Value used for calculating the y-level for the anchor based on the type.
-			value = 56
-
-	#Small Osmium Vein Generation Settings.
-	[osmium.small]
-		#Determines if Small Osmium Veins should be added to world generation. Note: Requires generating osmium ore to be enabled.
-		shouldGenerate = true
-		#Chance that Small Osmium Veins generates in a chunk.
-		# Default: 8
-		# Range: 1 ~ 256
-		perChunk = 8
-		#Maximum number of blocks in a Small Osmium Vein.
-		# Default: 4
-		# Range: 1 ~ 64
-		maxVeinSize = 4
-		#Chance that blocks that are directly exposed to air in a Small Osmium Vein are not placed.
-		# Default: 0.0
-		# Range: 0.0 ~ 1.0
-		discardChanceOnAirExposure = 0.0
-		#Distribution shape for placing Small Osmium Veins.
-		#Allowed Values: TRAPEZOID, UNIFORM
-		shape = "UNIFORM"
-		#Half length of short side of trapezoid, only used if the shape is Trapezoid. A value of zero means the shape is a triangle.
-		plateau = 0
-
-		#Minimum (inclusive) height anchor for Small Osmium Veins. This defines the minimum y-level that Small Osmium Veins can spawn at.
-		[osmium.small.minInclusive]
-			#The type of anchor. This is used to define how the value is used in calculating the y-level.
-			#Absolute (y = value)
-			#Above Bottom (y = minY + value)
-			#Below Top (y = depth - 1 + minY - value)
-			#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
-			type = "ABOVE_BOTTOM"
-			#Value used for calculating the y-level for the anchor based on the type.
-			value = 0
-
-		#Maximum (inclusive) height anchor for Small Osmium Veins. This defines the maximum y-level that Small Osmium Veins can spawn at.
-		[osmium.small.maxInclusive]
-			#The type of anchor. This is used to define how the value is used in calculating the y-level.
-			#Absolute (y = value)
-			#Above Bottom (y = minY + value)
-			#Below Top (y = depth - 1 + minY - value)
-			#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
-			type = "ABSOLUTE"
-			#Value used for calculating the y-level for the anchor based on the type.
-			value = 64
-
-#Generation Settings for Uranium ore.
-[uranium]
-	#Determines if Uranium ore should be added to world generation.
-	shouldGenerate = false
-
-	#Small Uranium Vein Generation Settings.
-	[uranium.small]
-		#Determines if Small Uranium Veins should be added to world generation. Note: Requires generating uranium ore to be enabled.
-		shouldGenerate = true
-		#Chance that Small Uranium Veins generates in a chunk.
-		# Default: 4
-		# Range: 1 ~ 256
-		perChunk = 4
-		#Maximum number of blocks in a Small Uranium Vein.
-		# Default: 4
-		# Range: 1 ~ 64
-		maxVeinSize = 4
-		#Chance that blocks that are directly exposed to air in a Small Uranium Vein are not placed.
-		# Default: 0.0
-		# Range: 0.0 ~ 1.0
-		discardChanceOnAirExposure = 0.0
-		#Distribution shape for placing Small Uranium Veins.
-		#Allowed Values: TRAPEZOID, UNIFORM
-		shape = "TRAPEZOID"
-		#Half length of short side of trapezoid, only used if the shape is Trapezoid. A value of zero means the shape is a triangle.
-		plateau = 0
-
-		#Minimum (inclusive) height anchor for Small Uranium Veins. This defines the minimum y-level that Small Uranium Veins can spawn at.
-		[uranium.small.minInclusive]
-			#The type of anchor. This is used to define how the value is used in calculating the y-level.
-			#Absolute (y = value)
-			#Above Bottom (y = minY + value)
-			#Below Top (y = depth - 1 + minY - value)
-			#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
-			type = "ABOVE_BOTTOM"
-			#Value used for calculating the y-level for the anchor based on the type.
-			value = 0
-
-		#Maximum (inclusive) height anchor for Small Uranium Veins. This defines the maximum y-level that Small Uranium Veins can spawn at.
-		[uranium.small.maxInclusive]
-			#The type of anchor. This is used to define how the value is used in calculating the y-level.
-			#Absolute (y = value)
-			#Above Bottom (y = minY + value)
-			#Below Top (y = depth - 1 + minY - value)
-			#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
-			type = "ABSOLUTE"
-			#Value used for calculating the y-level for the anchor based on the type.
-			value = 8
-
-	#Buried Uranium Vein Generation Settings.
-	[uranium.buried]
-		#Determines if Buried Uranium Veins should be added to world generation. Note: Requires generating uranium ore to be enabled.
-		shouldGenerate = true
-		#Chance that Buried Uranium Veins generates in a chunk.
-		# Default: 7
-		# Range: 1 ~ 256
-		perChunk = 7
-		#Maximum number of blocks in a Buried Uranium Vein.
-		# Default: 9
-		# Range: 1 ~ 64
-		maxVeinSize = 9
-		#Chance that blocks that are directly exposed to air in a Buried Uranium Vein are not placed.
-		# Default: 0.75
-		# Range: 0.0 ~ 1.0
-		discardChanceOnAirExposure = 0.75
-		#Distribution shape for placing Buried Uranium Veins.
-		#Allowed Values: TRAPEZOID, UNIFORM
-		shape = "TRAPEZOID"
-		#Half length of short side of trapezoid, only used if the shape is Trapezoid. A value of zero means the shape is a triangle.
-		plateau = 16
-
-		#Minimum (inclusive) height anchor for Buried Uranium Veins. This defines the minimum y-level that Buried Uranium Veins can spawn at.
-		[uranium.buried.minInclusive]
-			#The type of anchor. This is used to define how the value is used in calculating the y-level.
-			#Absolute (y = value)
-			#Above Bottom (y = minY + value)
-			#Below Top (y = depth - 1 + minY - value)
-			#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
-			type = "ABOVE_BOTTOM"
-			#Value used for calculating the y-level for the anchor based on the type.
-			value = -24
-
-		#Maximum (inclusive) height anchor for Buried Uranium Veins. This defines the maximum y-level that Buried Uranium Veins can spawn at.
-		[uranium.buried.maxInclusive]
-			#The type of anchor. This is used to define how the value is used in calculating the y-level.
-			#Absolute (y = value)
-			#Above Bottom (y = minY + value)
-			#Below Top (y = depth - 1 + minY - value)
-			#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
-			type = "ABOVE_BOTTOM"
-			#Value used for calculating the y-level for the anchor based on the type.
-			value = 56
-
-#Generation Settings for Fluorite ore.
-[fluorite]
-	#Determines if Fluorite ore should be added to world generation.
-	shouldGenerate = true
-
-	#Normal Fluorite Vein Generation Settings.
-	[fluorite.normal]
-		#Determines if Normal Fluorite Veins should be added to world generation. Note: Requires generating fluorite ore to be enabled.
-		shouldGenerate = true
-		#Chance that Normal Fluorite Veins generates in a chunk.
-		# Default: 5
-		# Range: 1 ~ 256
-		perChunk = 5
-		#Maximum number of blocks in a Normal Fluorite Vein.
-		# Default: 5
-		# Range: 1 ~ 64
-		maxVeinSize = 5
-		#Chance that blocks that are directly exposed to air in a Normal Fluorite Vein are not placed.
-		# Default: 0.0
-		# Range: 0.0 ~ 1.0
-		discardChanceOnAirExposure = 0.0
-		#Distribution shape for placing Normal Fluorite Veins.
-		#Allowed Values: TRAPEZOID, UNIFORM
-		shape = "UNIFORM"
-		#Half length of short side of trapezoid, only used if the shape is Trapezoid. A value of zero means the shape is a triangle.
-		plateau = 0
-
-		#Minimum (inclusive) height anchor for Normal Fluorite Veins. This defines the minimum y-level that Normal Fluorite Veins can spawn at.
-		[fluorite.normal.minInclusive]
-			#The type of anchor. This is used to define how the value is used in calculating the y-level.
-			#Absolute (y = value)
-			#Above Bottom (y = minY + value)
-			#Below Top (y = depth - 1 + minY - value)
-			#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
-			type = "ABOVE_BOTTOM"
-			#Value used for calculating the y-level for the anchor based on the type.
-			value = 0
-
-		#Maximum (inclusive) height anchor for Normal Fluorite Veins. This defines the maximum y-level that Normal Fluorite Veins can spawn at.
-		[fluorite.normal.maxInclusive]
-			#The type of anchor. This is used to define how the value is used in calculating the y-level.
-			#Absolute (y = value)
-			#Above Bottom (y = minY + value)
-			#Below Top (y = depth - 1 + minY - value)
-			#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
-			type = "ABSOLUTE"
-			#Value used for calculating the y-level for the anchor based on the type.
-			value = 23
-
-	#Buried Fluorite Vein Generation Settings.
-	[fluorite.buried]
-		#Determines if Buried Fluorite Veins should be added to world generation. Note: Requires generating fluorite ore to be enabled.
-		shouldGenerate = true
-		#Chance that Buried Fluorite Veins generates in a chunk.
-		# Default: 3
-		# Range: 1 ~ 256
-		perChunk = 3
-		#Maximum number of blocks in a Buried Fluorite Vein.
-		# Default: 13
-		# Range: 1 ~ 64
-		maxVeinSize = 13
-		#Chance that blocks that are directly exposed to air in a Buried Fluorite Vein are not placed.
-		# Default: 1.0
-		# Range: 0.0 ~ 1.0
-		discardChanceOnAirExposure = 1.0
-		#Distribution shape for placing Buried Fluorite Veins.
-		#Allowed Values: TRAPEZOID, UNIFORM
-		shape = "TRAPEZOID"
-		#Half length of short side of trapezoid, only used if the shape is Trapezoid. A value of zero means the shape is a triangle.
-		plateau = 0
-
-		#Minimum (inclusive) height anchor for Buried Fluorite Veins. This defines the minimum y-level that Buried Fluorite Veins can spawn at.
-		[fluorite.buried.minInclusive]
-			#The type of anchor. This is used to define how the value is used in calculating the y-level.
-			#Absolute (y = value)
-			#Above Bottom (y = minY + value)
-			#Below Top (y = depth - 1 + minY - value)
-			#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
-			type = "ABOVE_BOTTOM"
-			#Value used for calculating the y-level for the anchor based on the type.
-			value = 0
-
-		#Maximum (inclusive) height anchor for Buried Fluorite Veins. This defines the maximum y-level that Buried Fluorite Veins can spawn at.
-		[fluorite.buried.maxInclusive]
-			#The type of anchor. This is used to define how the value is used in calculating the y-level.
-			#Absolute (y = value)
-			#Above Bottom (y = minY + value)
-			#Below Top (y = depth - 1 + minY - value)
-			#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
-			type = "ABSOLUTE"
-			#Value used for calculating the y-level for the anchor based on the type.
-			value = 4
-
-#Generation Settings for Lead ore.
-[lead]
-	#Determines if Lead ore should be added to world generation.
-	shouldGenerate = false
-
-	#Normal Lead Vein Generation Settings.
-	[lead.normal]
-		#Determines if Normal Lead Veins should be added to world generation. Note: Requires generating lead ore to be enabled.
-		shouldGenerate = true
-		#Chance that Normal Lead Veins generates in a chunk.
-		# Default: 8
-		# Range: 1 ~ 256
-		perChunk = 8
-		#Maximum number of blocks in a Normal Lead Vein.
-		# Default: 9
-		# Range: 1 ~ 64
-		maxVeinSize = 9
-		#Chance that blocks that are directly exposed to air in a Normal Lead Vein are not placed.
-		# Default: 0.25
-		# Range: 0.0 ~ 1.0
-		discardChanceOnAirExposure = 0.25
-		#Distribution shape for placing Normal Lead Veins.
-		#Allowed Values: TRAPEZOID, UNIFORM
-		shape = "TRAPEZOID"
-		#Half length of short side of trapezoid, only used if the shape is Trapezoid. A value of zero means the shape is a triangle.
-		plateau = 0
-
-		#Minimum (inclusive) height anchor for Normal Lead Veins. This defines the minimum y-level that Normal Lead Veins can spawn at.
-		[lead.normal.minInclusive]
-			#The type of anchor. This is used to define how the value is used in calculating the y-level.
-			#Absolute (y = value)
-			#Above Bottom (y = minY + value)
-			#Below Top (y = depth - 1 + minY - value)
-			#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
-			type = "ABOVE_BOTTOM"
-			#Value used for calculating the y-level for the anchor based on the type.
-			value = -24
-
-		#Maximum (inclusive) height anchor for Normal Lead Veins. This defines the maximum y-level that Normal Lead Veins can spawn at.
-		[lead.normal.maxInclusive]
-			#The type of anchor. This is used to define how the value is used in calculating the y-level.
-			#Absolute (y = value)
-			#Above Bottom (y = minY + value)
-			#Below Top (y = depth - 1 + minY - value)
-			#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
-			type = "ABSOLUTE"
-			#Value used for calculating the y-level for the anchor based on the type.
-			value = 64
-
-#Generation Settings for salt.
-[salt]
-	#Determines if salt should be added to world generation.
-	shouldGenerate = true
-	#Chance that salt generates in a chunk.
-	# Default: 2
-	# Range: 1 ~ 256
-	perChunk = 2
-	#Base radius of a vein of salt.
-	# Default: 2
-	# Range: 1 ~ 4
-	minRadius = 2
-	#Extended variability (spread) for the radius in a vein of salt.
-	maxRadius = 3
-	#Number of blocks to extend up and down when placing a vein of salt.
-	# Default: 1
-	# Range: 0 ~ 2031
-	halfHeight = 1
+{
+    "name": "SlimeBox",
+    "version": "1.2.0",
+    "minecraft": "1.21.1",
+    "loader": "neoforge",
+    "loaderVersion": "21.1.259",
+    "mods": [
+        { "slug": "ad-astra", "version": "1.16.26" },
+        { "slug": "ae2", "version": "19.2.18" },
+        { "slug": "aether", "version": "1.21.1-1.5.10-neoforge" },
+        { "slug": "almost-unified-ie", "version": "QNmpHq1W" },
+        { "slug": "almostunified", "version": "e8iYxxI3" },
+        { "slug": "aquamirae", "version": "RSbxcVPE" },
+        { "slug": "architectury-api", "version": "13.0.11+neoforge" },
+        { "slug": "ars-nouveau", "version": "yWDnir1o" },
+        { "slug": "artifacts", "version": "lMfuK0o7" },
+        { "slug": "balm", "version": "21.0.66+neoforge-1.21.1" },
+        { "slug": "better-archeology", "version": "zTMR6t3J" },
+        { "slug": "better-combat", "version": "2.4.0+1.21.1-neoforge" },
+        { "slug": "cloth-config", "version": "15.0.140+neoforge" },
+        { "slug": "cobblemon", "version": "1.8.2" },
+        { "slug": "collective", "version": "m1k4DyKx" },
+        { "slug": "common-storage-lib", "version": "SCkdlli6" },
+        { "slug": "create", "version": "6.0.10+mc1.21.1" },
+        { "slug": "createaddition", "version": "neoforge-1.21.1-1.6.0" },
+        { "slug": "creeper-overhaul", "version": "HNrAYCLH" },
+        { "slug": "cristel-lib", "version": "neoforge-1.21.1-3.1.7" },
+        { "slug": "critters-and-companions", "version": "aeDUpTJS" },
+        { "slug": "crop-critters", "version": "B5anPvZD" },
+        { "slug": "curios", "version": "9.5.1+1.21.1" },
+        { "slug": "deeperdarker", "version": "1.4.1-neoforge-1.21.1" },
+        { "slug": "difficulty-lock", "version": "cnReiboJ" },
+        { "slug": "dungeons-and-taverns", "version": "v4.4.4+mod" },
+        { "slug": "emi", "version": "1.1.24+1.21.1+neoforge" },
+        { "slug": "enderman-overhaul", "version": "TH9YXp9r" },
+        { "slug": "entity-model-features", "version": "bRlX1x4e" },
+        { "slug": "entitytexturefeatures", "version": "CfQJbv1u" },
+        { "slug": "farmers-delight", "version": "1.21.1-1.3.4" },
+        { "slug": "ferrite-core", "version": "7.0.3-neoforge" },
+        { "slug": "fragmentum", "version": "AyL8gHWw" },
+        { "slug": "geckolib", "version": "Grwn5rUB" },
+        { "slug": "guideme", "version": "21.1.19" },
+        { "slug": "handcrafted", "version": "4.0.3" },
+        { "slug": "immersive-ui", "version": "wtmSnIFo" },
+        { "slug": "immersiveengineering", "version": "uNRARSH2" },
+        { "slug": "incendium", "version": "5.4.4" },
+        { "slug": "iris", "version": "1.8.14-beta.1+1.21.1-neoforge" },
+        { "slug": "jade", "version": "15.10.6+neoforge" },
+        { "slug": "jei", "version": "OZIoQboh" },
+        { "slug": "journeymap", "version": "1.21.1-6.0.9+neoforge" },
+        { "slug": "kotlin-for-forge", "version": "5.12.0" },
+        { "slug": "l_enders-cataclysm", "version": "PsPYpoCC" },
+        { "slug": "lionfish-api", "version": "fTRMVgyZ" },
+        { "slug": "lithium", "version": "mc1.21.1-0.15.4-neoforge" },
+        { "slug": "lithostitched", "version": "1.8.0-neoforge-21.1" },
+        { "slug": "lootr", "version": "1.21.1-1.11.38.127" },
+        { "slug": "mekanism", "version": "5KzzycBT" },
+        { "slug": "modernfix", "version": "5.27.26+mc1.21.1" },
+        { "slug": "naturalist", "version": "2.0.5+1.21.1-neoforge" },
+        { "slug": "no-creeper-grief", "version": "v.1.1.0+mod" },
+        { "slug": "nullscape", "version": "1.2.14" },
+        { "slug": "owo-lib", "version": "NMCHU6DZ" },
+        { "slug": "playeranimator", "version": "2.0.4+1.21.1-forge" },
+        { "slug": "relics-mod", "version": "nvZZMhJS" },
+        { "slug": "reliquified-ars-nouveau", "version": "8L8DPUF0" },
+        { "slug": "reliquified-artifacts", "version": "RjDi7tua" },
+        { "slug": "reliquified-l-ender-s-cataclysm", "version": "ZHAIRSeF" },
+        { "slug": "reliquified-twilight-forest", "version": "9UsckWGL" },
+        { "slug": "resourceful-config", "version": "3.0.11" },
+        { "slug": "resourceful-lib", "version": "3.0.12" },
+        { "slug": "shatterbyte-lib", "version": "yVCCi6TK" },
+        { "slug": "sodium", "version": "mc1.21.1-0.8.13-neoforge" },
+        { "slug": "sophisticated-backpacks", "version": "1.21.1-3.26.12.2208" },
+        { "slug": "sophisticated-backpacks-create-integration", "version": "1.21.1-0.2.3.194" },
+        { "slug": "sophisticated-core", "version": "1.21.1-1.5.11.2394" },
+        { "slug": "sophisticated-inventory-interactions", "version": "1.21.1-0.1.14.224" },
+        { "slug": "sophisticated-storage", "version": "1.21.1-1.6.5.2176" },
+        { "slug": "sophisticated-storage-create-integration", "version": "1.21.1-0.1.23.246" },
+        { "slug": "sophisticated-storage-in-motion", "version": "1.21.1-0.10.36.381" },
+        { "slug": "tectonic", "version": "3.0.28-neoforge-21.1" },
+        { "slug": "terralith", "version": "IY93YaEe" },
+        { "slug": "towns-and-towers", "version": "DZxwgj6V" },
+        { "slug": "trofers", "version": "FrbNhSab" },
+        { "slug": "waystones", "version": "21.1.46+neoforge-1.21.1" },
+        { "slug": "when-dungeons-arise", "version": "XIRJSFQ0" },
+        { "slug": "yacl", "version": "3.8.2+1.21.1-neoforge" },
+        { "slug": "yagm", "version": "l3oKyWhb" },
+        { "slug": "yungs-api", "version": "1.21.1-NeoForge-5.1.9" },
+        { "slug": "yungs-better-desert-temples", "version": "1.21.1-NeoForge-4.1.5" },
+        { "slug": "yungs-better-dungeons", "version": "1.21.1-NeoForge-5.1.4" },
+        { "slug": "yungs-better-end-island", "version": "1.21.1-NeoForge-3.1.2" },
+        { "slug": "yungs-better-jungle-temples", "version": "1.21.1-NeoForge-3.1.2" },
+        { "slug": "yungs-better-mineshafts", "version": "1.21.1-NeoForge-5.1.1" },
+        { "slug": "yungs-better-nether-fortresses", "version": "1.21.1-NeoForge-3.1.5" },
+        { "slug": "yungs-better-ocean-monuments", "version": "1.21.1-NeoForge-4.1.2" },
+        { "slug": "yungs-better-strongholds", "version": "1.21.1-NeoForge-5.1.3" },
+        { "slug": "yungs-better-witch-huts", "version": "1.21.1-NeoForge-4.1.1" },
+        { "slug": "yungs-bridges", "version": "1.21.1-NeoForge-5.1.1" },
+        { "slug": "yungs-extras", "version": "1.21.1-NeoForge-5.1.1" },
+        { "slug": "the-twilight-forest", "version": "4.8.3345", "source": "curseforge", "projectId": 227639, "fileId": 7797302 }
+    ],
+    "shaderpacks": [
+        { "slug": "bsl-shaders", "version": "10.1.8" },
+        { "slug": "complementary-reimagined", "version": "r5.9.3" },
+        { "slug": "complementary-unbound", "version": "r5.9.3" }
+    ],
+    "resourcepacks": [
+        { "slug": "fresh-animations", "version": "xN57JJts" },
+        { "slug": "fresh-animations-extensions", "version": "RfJ3uz2J" },
+        { "slug": "better-mob-models", "version": "EMsW9nQI" },
+        { "slug": "cobblemon-interface", "version": "8SjyMuZO" },
+        { "slug": "cobblemon-interface-modded", "version": "pfFd0Jh4" }
+    ],
+    "configs": [
+        {
+            "file": "config/Mekanism/world.toml",
+            "set": {
+                "uranium.shouldGenerate": false,
+                "lead.shouldGenerate": false
+            }
+        },
+        {
+            "file": "config/cobblemon/main.json",
+            "set": {
+                "playerDamagePokemon": false
+            }
+        }
+    ]
+}
