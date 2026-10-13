@@ -1,6 +1,6 @@
 {
     "name": "SlimeBox",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "minecraft": "1.21.1",
     "loader": "neoforge",
     "loaderVersion": "21.1.259",
@@ -30,6 +30,7 @@
         { "slug": "deeperdarker", "version": "1.4.1-neoforge-1.21.1" },
         { "slug": "dungeons-and-taverns", "version": "v4.4.4+mod" },
         { "slug": "emi", "version": "1.1.24+1.21.1+neoforge" },
+        { "slug": "enderio", "version": "2bHl1dCW" },
         { "slug": "enderman-overhaul", "version": "TH9YXp9r" },
         { "slug": "entity-model-features", "version": "bRlX1x4e" },
         { "slug": "entitytexturefeatures", "version": "CfQJbv1u" },
