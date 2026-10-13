@@ -111,8 +111,19 @@
         { "slug": "cobblemon-interface", "version": "8SjyMuZO" },
         { "slug": "cobblemon-interface-modded", "version": "pfFd0Jh4" }
     ],
-    "overrides": [
-        "config/Mekanism/world.toml",
-        "config/cobblemon/main.json"
+    "configs": [
+        {
+            "file": "config/Mekanism/world.toml",
+            "set": {
+                "uranium.shouldGenerate": false,
+                "lead.shouldGenerate": false
+            }
+        },
+        {
+            "file": "config/cobblemon/main.json",
+            "set": {
+                "playerDamagePokemon": false
+            }
+        }
     ]
 }
