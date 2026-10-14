@@ -1,6 +1,6 @@
 {
     "name": "SlimeBox",
-    "version": "1.2.5",
+    "version": "1.2.6",
     "minecraft": "1.21.1",
     "loader": "neoforge",
     "loaderVersion": "21.1.259",
@@ -23,7 +23,6 @@
         { "slug": "creeper-overhaul", "version": "HNrAYCLH" },
         { "slug": "cristel-lib", "version": "neoforge-1.21.1-3.1.7" },
         { "slug": "critters-and-companions", "version": "aeDUpTJS" },
-        { "slug": "crop-critters", "version": "B5anPvZD" },
         { "slug": "curios", "version": "9.5.1+1.21.1" },
         { "slug": "deeperdarker", "version": "1.4.1-neoforge-1.21.1" },
         { "slug": "dungeons-and-taverns", "version": "v4.4.4+mod" },
