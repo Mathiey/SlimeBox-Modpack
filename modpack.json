@@ -1,6 +1,6 @@
 {
     "name": "SlimeBox",
-    "version": "1.2.4",
+    "version": "1.2.5",
     "minecraft": "1.21.1",
     "loader": "neoforge",
     "loaderVersion": "21.1.259",
@@ -54,7 +54,6 @@
         { "slug": "mekanism", "version": "5KzzycBT" },
         { "slug": "modernfix", "version": "5.27.26+mc1.21.1" },
         { "slug": "naturalist", "version": "2.0.5+1.21.1-neoforge" },
-        { "slug": "no-creeper-grief", "version": "v.1.1.0+mod" },
         { "slug": "nullscape", "version": "1.2.14" },
         { "slug": "owo-lib", "version": "NMCHU6DZ" },
         { "slug": "playeranimator", "version": "2.0.4+1.21.1-forge" },
@@ -112,6 +111,10 @@
     "configs": [
         {
             "file": "config/Mekanism/world.toml",
+            "_defaults": {
+                "uranium.shouldGenerate": true,
+                "lead.shouldGenerate": true
+            },
             "set": {
                 "uranium.shouldGenerate": false,
                 "lead.shouldGenerate": false
@@ -119,8 +122,33 @@
         },
         {
             "file": "config/cobblemon/main.json",
+            "_defaults": {
+                "playerDamagePokemon": true,
+                "pokemonPerChunk": 1.0,
+                "maximumSpawnsPerPass": 8
+            },
             "set": {
-                "playerDamagePokemon": false
+                "playerDamagePokemon": false,
+                "pokemonPerChunk": 0.5,
+                "maximumSpawnsPerPass": 4
+            }
+        },
+        {
+            "file": "config/creeperoverhaul.jsonc",
+            "_defaults": {
+                "destroyBlocks": true
+            },
+            "set": {
+                "destroyBlocks": false
+            }
+        },
+        {
+            "file": "config/endermanoverhaul.jsonc",
+            "_defaults": {
+                "allowPickingUpBlocks": true
+            },
+            "set": {
+                "allowPickingUpBlocks": false
             }
         }
     ]
