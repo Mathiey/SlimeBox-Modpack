@@ -1,6 +1,6 @@
 {
     "name": "SlimeBox",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "minecraft": "1.21.1",
     "loader": "neoforge",
     "loaderVersion": "21.1.259",
@@ -8,8 +8,6 @@
         { "slug": "ad-astra", "version": "1.16.26" },
         { "slug": "ae2", "version": "19.2.18" },
         { "slug": "aether", "version": "1.21.1-1.5.10-neoforge" },
-        { "slug": "almost-unified-ie", "version": "QNmpHq1W" },
-        { "slug": "almostunified", "version": "e8iYxxI3" },
         { "slug": "aquamirae", "version": "RSbxcVPE" },
         { "slug": "architectury-api", "version": "13.0.11+neoforge" },
         { "slug": "ars-nouveau", "version": "yWDnir1o" },
