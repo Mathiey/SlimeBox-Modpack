@@ -1,6 +1,6 @@
 {
     "name": "SlimeBox",
-    "version": "1.2.10",
+    "version": "1.2.11",
     "minecraft": "1.21.1",
     "loader": "neoforge",
     "loaderVersion": "21.1.259",
@@ -13,9 +13,11 @@
         { "slug": "architectury-api", "version": "13.0.11+neoforge" },
         { "slug": "ars-nouveau", "version": "yWDnir1o" },
         { "slug": "artifacts", "version": "lMfuK0o7" },
+        { "slug": "athena-ctm", "version": "dJgL278E" },
         { "slug": "balm", "version": "21.0.66+neoforge-1.21.1" },
         { "slug": "better-archeology", "version": "zTMR6t3J" },
         { "slug": "better-combat", "version": "2.4.0+1.21.1-neoforge" },
+        { "slug": "chipped", "version": "eqVowbGc" },
         { "slug": "chunky", "version": "LuFhm4eU" },
         { "slug": "cloth-config", "version": "15.0.140+neoforge" },
         { "slug": "cobblemon", "version": "1.8.2" },
@@ -68,6 +70,7 @@
         { "slug": "relics-mod", "version": "nvZZMhJS" },
         { "slug": "reliquified-ars-nouveau", "version": "8L8DPUF0" },
         { "slug": "reliquified-artifacts", "version": "RjDi7tua" },
+        { "slug": "reliquified-irons-spells-n-spellbooks", "version": "3c2Q2RnP" },
         { "slug": "reliquified-l-ender-s-cataclysm", "version": "ZHAIRSeF" },
         { "slug": "reliquified-twilight-forest", "version": "9UsckWGL" },
         { "slug": "resourceful-config", "version": "3.0.11" },
@@ -103,6 +106,9 @@
         { "slug": "yungs-better-witch-huts", "version": "1.21.1-NeoForge-4.1.1" },
         { "slug": "yungs-bridges", "version": "1.21.1-NeoForge-5.1.1" },
         { "slug": "yungs-extras", "version": "1.21.1-NeoForge-5.1.1" },
+        { "slug": "ftb-chunks", "version": "2101.1.22", "source": "curseforge", "projectId": 314906, "fileId": 8791113 },
+        { "slug": "ftb-library", "version": "2101.1.37", "source": "curseforge", "projectId": 404465, "fileId": 9008089 },
+        { "slug": "ftb-teams", "version": "2101.1.11", "source": "curseforge", "projectId": 404468, "fileId": 8724782 },
         { "slug": "the-twilight-forest", "version": "4.8.3345", "source": "curseforge", "projectId": 227639, "fileId": 7797302 }
     ],
     "shaderpacks": [
