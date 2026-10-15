@@ -1,6 +1,6 @@
 {
     "name": "SlimeBox",
-    "version": "1.2.8",
+    "version": "1.2.9",
     "minecraft": "1.21.1",
     "loader": "neoforge",
     "loaderVersion": "21.1.259",
@@ -16,7 +16,6 @@
         { "slug": "balm", "version": "21.0.66+neoforge-1.21.1" },
         { "slug": "better-archeology", "version": "zTMR6t3J" },
         { "slug": "better-combat", "version": "2.4.0+1.21.1-neoforge" },
-        { "slug": "chunky", "version": "LuFhm4eU" },
         { "slug": "cloth-config", "version": "15.0.140+neoforge" },
         { "slug": "cobblemon", "version": "1.8.2" },
         { "slug": "common-storage-lib", "version": "SCkdlli6" },
