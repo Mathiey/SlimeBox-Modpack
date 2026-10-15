@@ -1,6 +1,6 @@
 {
     "name": "SlimeBox",
-    "version": "1.2.11",
+    "version": "1.2.12",
     "minecraft": "1.21.1",
     "loader": "neoforge",
     "loaderVersion": "21.1.259",
@@ -67,9 +67,9 @@
         { "slug": "owo-lib", "version": "NMCHU6DZ" },
         { "slug": "playeranimator", "version": "2.0.4+1.21.1-forge" },
         { "slug": "polymorph", "version": "9yWvrF5o" },
-        { "slug": "relics-mod", "version": "nvZZMhJS" },
-        { "slug": "reliquified-ars-nouveau", "version": "8L8DPUF0" },
-        { "slug": "reliquified-artifacts", "version": "RjDi7tua" },
+        { "slug": "relics-mod", "version": "WKEe9sPL" },
+        { "slug": "reliquified-ars-nouveau", "version": "xtS9iqts" },
+        { "slug": "reliquified-artifacts", "version": "x2qoJkgq" },
         { "slug": "reliquified-irons-spells-n-spellbooks", "version": "3c2Q2RnP" },
         { "slug": "reliquified-l-ender-s-cataclysm", "version": "ZHAIRSeF" },
         { "slug": "reliquified-twilight-forest", "version": "9UsckWGL" },
@@ -109,6 +109,8 @@
         { "slug": "ftb-chunks", "version": "2101.1.22", "source": "curseforge", "projectId": 314906, "fileId": 8791113 },
         { "slug": "ftb-library", "version": "2101.1.37", "source": "curseforge", "projectId": 404465, "fileId": 9008089 },
         { "slug": "ftb-teams", "version": "2101.1.11", "source": "curseforge", "projectId": 404468, "fileId": 8724782 },
+        { "slug": "reliquified-l-ender-s-cataclysm-new-relics-fix", "version": "1.0.3", "source": "curseforge", "projectId": 1665965, "fileId": 8936348 },
+        { "slug": "reliquified-twilight-forest-new-relics-fix", "version": "1.0.5", "source": "curseforge", "projectId": 1664403, "fileId": 9155828 },
         { "slug": "the-twilight-forest", "version": "4.8.3345", "source": "curseforge", "projectId": 227639, "fileId": 7797302 }
     ],
     "shaderpacks": [
