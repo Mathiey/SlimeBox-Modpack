@@ -1,6 +1,6 @@
 {
     "name": "SlimeBox",
-    "version": "1.2.12",
+    "version": "1.2.13",
     "minecraft": "1.21.1",
     "loader": "neoforge",
     "loaderVersion": "21.1.259",
@@ -12,7 +12,7 @@
         { "slug": "aquamirae", "version": "RSbxcVPE" },
         { "slug": "architectury-api", "version": "13.0.11+neoforge" },
         { "slug": "ars-nouveau", "version": "yWDnir1o" },
-        { "slug": "artifacts", "version": "lMfuK0o7" },
+        { "slug": "artifacts", "version": "aE1GPGY4" },
         { "slug": "athena-ctm", "version": "dJgL278E" },
         { "slug": "balm", "version": "21.0.66+neoforge-1.21.1" },
         { "slug": "better-archeology", "version": "zTMR6t3J" },
