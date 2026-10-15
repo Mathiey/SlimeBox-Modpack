@@ -1,6 +1,6 @@
 {
     "name": "SlimeBox",
-    "version": "1.2.18",
+    "version": "1.2.14",
     "minecraft": "1.21.1",
     "loader": "neoforge",
     "loaderVersion": "21.1.259",
@@ -9,14 +9,18 @@
         { "slug": "ae2", "version": "19.2.18" },
         { "slug": "aether", "version": "1.21.1-1.5.10-neoforge" },
         { "slug": "appleskin", "version": "uAKA6Laj" },
+        { "slug": "aquaculture", "version": "5pbz0ETj" },
+        { "slug": "aquaculture-delight", "version": "VFpyJiVp" },
         { "slug": "aquamirae", "version": "RSbxcVPE" },
         { "slug": "architectury-api", "version": "13.0.11+neoforge" },
         { "slug": "ars-nouveau", "version": "yWDnir1o" },
+        { "slug": "arsdelight", "version": "a4qrRbNs" },
         { "slug": "artifacts", "version": "lMfuK0o7" },
         { "slug": "athena-ctm", "version": "dJgL278E" },
         { "slug": "balm", "version": "21.0.66+neoforge-1.21.1" },
         { "slug": "better-archeology", "version": "zTMR6t3J" },
         { "slug": "better-combat", "version": "2.4.0+1.21.1-neoforge" },
+        { "slug": "chefs-delight", "version": "N8hZwT7r" },
         { "slug": "chipped", "version": "eqVowbGc" },
         { "slug": "chunky", "version": "LuFhm4eU" },
         { "slug": "cloth-config", "version": "15.0.140+neoforge" },
@@ -34,6 +38,7 @@
         { "slug": "emi", "version": "1.1.24+1.21.1+neoforge" },
         { "slug": "enderio", "version": "2bHl1dCW" },
         { "slug": "enderman-overhaul", "version": "TH9YXp9r" },
+        { "slug": "ends-delight", "version": "YTApg6Hl" },
         { "slug": "entity-model-features", "version": "197m3VoU" },
         { "slug": "entityculling", "version": "eieYbWYb" },
         { "slug": "entitytexturefeatures", "version": "lwNx1nD1" },
@@ -60,10 +65,13 @@
         { "slug": "lithostitched", "version": "cZu4cHY3" },
         { "slug": "lootr", "version": "1.21.1-1.11.38.127" },
         { "slug": "mekanism", "version": "5KzzycBT" },
+        { "slug": "mekanism-generators", "version": "a6gl7srE" },
         { "slug": "modernfix", "version": "5.27.26+mc1.21.1" },
         { "slug": "moonlight", "version": "fAIfWX6M" },
+        { "slug": "my-nethers-delight", "version": "SGFJBL5q" },
         { "slug": "naturalist", "version": "2.0.5+1.21.1-neoforge" },
         { "slug": "nullscape", "version": "1.2.14" },
+        { "slug": "oceans-delight", "version": "ja5Qg1xw" },
         { "slug": "owo-lib", "version": "NMCHU6DZ" },
         { "slug": "playeranimator", "version": "2.0.4+1.21.1-forge" },
         { "slug": "polymorph", "version": "9yWvrF5o" },
@@ -90,6 +98,7 @@
         { "slug": "terralith", "version": "IY93YaEe" },
         { "slug": "towns-and-towers", "version": "DZxwgj6V" },
         { "slug": "trofers", "version": "FrbNhSab" },
+        { "slug": "twilight-delight", "version": "373z6J9B" },
         { "slug": "waystones", "version": "21.1.46+neoforge-1.21.1" },
         { "slug": "when-dungeons-arise", "version": "XIRJSFQ0" },
         { "slug": "yacl", "version": "3.8.2+1.21.1-neoforge" },
@@ -151,7 +160,52 @@
             }
         },
         {
-            "file": "config/curios-server.toml",
+            "file": "defaultconfigs/Mekanism/general.toml",
+            "_defaults": {
+                "digital_miner.ticksPerMine": 80,
+                "digital_miner.maxRadius": 32,
+                "digital_miner.silkMultiplier": 12
+            },
+            "set": {
+                "digital_miner.ticksPerMine": 800,
+                "digital_miner.maxRadius": 16,
+                "digital_miner.silkMultiplier": 40
+            }
+        },
+        {
+            "file": "defaultconfigs/Mekanism/machine-usage.toml",
+            "_defaults": {
+                "digitalMiner": 1000
+            },
+            "set": {
+                "digitalMiner": 10000
+            }
+        },
+        {
+            "file": "defaultconfigs/Mekanism/tiers.toml",
+            "_defaults": {
+                "energy_cubes.basicCapacity": 4000000,
+                "energy_cubes.basicOutput": 4000,
+                "energy_cubes.advancedCapacity": 16000000,
+                "energy_cubes.advancedOutput": 16000,
+                "energy_cubes.eliteCapacity": 64000000,
+                "energy_cubes.eliteOutput": 64000,
+                "energy_cubes.ultimateCapacity": 256000000,
+                "energy_cubes.ultimateOutput": 256000
+            },
+            "set": {
+                "energy_cubes.basicCapacity": 40000000,
+                "energy_cubes.basicOutput": 40000,
+                "energy_cubes.advancedCapacity": 160000000,
+                "energy_cubes.advancedOutput": 160000,
+                "energy_cubes.eliteCapacity": 640000000,
+                "energy_cubes.eliteOutput": 640000,
+                "energy_cubes.ultimateCapacity": 2560000000,
+                "energy_cubes.ultimateOutput": 2560000
+            }
+        },
+        {
+            "file": "defaultconfigs/curios-server.toml",
             "_defaults": {
                 "keepCurios": "DEFAULT"
             },
