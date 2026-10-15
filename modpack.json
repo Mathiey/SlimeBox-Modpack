@@ -1,6 +1,6 @@
 {
     "name": "SlimeBox",
-    "version": "1.2.14",
+    "version": "1.2.16",
     "minecraft": "1.21.1",
     "loader": "neoforge",
     "loaderVersion": "21.1.259",
@@ -148,6 +148,15 @@
                 "playerDamagePokemon": false,
                 "pokemonPerChunk": 0.5,
                 "maximumSpawnsPerPass": 4
+            }
+        },
+        {
+            "file": "defaultconfigs/curios-server.toml",
+            "_defaults": {
+                "keepCurios": "DEFAULT"
+            },
+            "set": {
+                "keepCurios": "ON"
             }
         },
         {
