@@ -1,6 +1,6 @@
 {
     "name": "SlimeBox",
-    "version": "1.2.14",
+    "version": "1.2.15",
     "minecraft": "1.21.1",
     "loader": "neoforge",
     "loaderVersion": "21.1.259",
@@ -160,7 +160,7 @@
             }
         },
         {
-            "file": "defaultconfigs/Mekanism/general.toml",
+            "file": "config/Mekanism/general.toml",
             "_defaults": {
                 "digital_miner.ticksPerMine": 80,
                 "digital_miner.maxRadius": 32,
@@ -173,7 +173,7 @@
             }
         },
         {
-            "file": "defaultconfigs/Mekanism/machine-usage.toml",
+            "file": "config/Mekanism/machine-usage.toml",
             "_defaults": {
                 "digitalMiner": 1000
             },
@@ -182,7 +182,7 @@
             }
         },
         {
-            "file": "defaultconfigs/Mekanism/tiers.toml",
+            "file": "config/Mekanism/tiers.toml",
             "_defaults": {
                 "energy_cubes.basicCapacity": 4000000,
                 "energy_cubes.basicOutput": 4000,
@@ -205,7 +205,7 @@
             }
         },
         {
-            "file": "defaultconfigs/curios-server.toml",
+            "file": "config/curios-server.toml",
             "_defaults": {
                 "keepCurios": "DEFAULT"
             },
