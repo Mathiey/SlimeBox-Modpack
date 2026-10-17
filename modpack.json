@@ -1,10 +1,11 @@
 {
     "name": "SlimeBox",
-    "version": "1.2.18",
+    "version": "1.2.25",
     "minecraft": "1.21.1",
     "loader": "neoforge",
     "loaderVersion": "21.1.259",
     "mods": [
+        { "slug": "accessories", "version": "Fb55Fgjz" },
         { "slug": "ad-astra", "version": "1.16.26" },
         { "slug": "ae2", "version": "19.2.18" },
         { "slug": "aether", "version": "1.21.1-1.5.10-neoforge" },
@@ -13,6 +14,7 @@
         { "slug": "aquaculture-delight", "version": "VFpyJiVp" },
         { "slug": "aquamirae", "version": "RSbxcVPE" },
         { "slug": "architectury-api", "version": "13.0.11+neoforge" },
+        { "slug": "ars-additions", "version": "aQ0r5GD2" },
         { "slug": "ars-creo", "version": "LqOllHms" },
         { "slug": "ars-nouveau", "version": "yWDnir1o" },
         { "slug": "arsdelight", "version": "JtS0qjOn" },
@@ -28,8 +30,12 @@
         { "slug": "chipped", "version": "eqVowbGc" },
         { "slug": "chunky", "version": "LuFhm4eU" },
         { "slug": "cloth-config", "version": "15.0.140+neoforge" },
+        { "slug": "cobblefurnies", "version": "Ynk3uYUi" },
         { "slug": "cobblemon", "version": "1.8.2" },
         { "slug": "cobblemon-fight-or-flight-reborn", "version": "IYZaXJ3Y" },
+        { "slug": "cobblemon-mega-showdown", "version": "C0yyAEcs" },
+        { "slug": "cobblemon-pokenav", "version": "qbUwxhni" },
+        { "slug": "cobbreeding", "version": "jzxflH2c" },
         { "slug": "common-storage-lib", "version": "SCkdlli6" },
         { "slug": "create", "version": "6.0.10+mc1.21.1" },
         { "slug": "createaddition", "version": "hsjVajlP" },
@@ -65,6 +71,7 @@
         { "slug": "journeymap", "version": "1.21.1-6.0.9+neoforge" },
         { "slug": "kotlin-for-forge", "version": "5.12.0" },
         { "slug": "l_enders-cataclysm", "version": "PsPYpoCC" },
+        { "slug": "legendary-monuments", "version": "oRFso4Pk" },
         { "slug": "lionfish-api", "version": "fTRMVgyZ" },
         { "slug": "lithium", "version": "mc1.21.1-0.15.4-neoforge" },
         { "slug": "lithostitched", "version": "cZu4cHY3" },
@@ -80,6 +87,9 @@
         { "slug": "owo-lib", "version": "wbdHEItB" },
         { "slug": "playeranimator", "version": "2.0.4+1.21.1-forge" },
         { "slug": "polymorph", "version": "9yWvrF5o" },
+        { "slug": "radical-gyms-cobblemon", "version": "TWiuaa3o" },
+        { "slug": "rctapi", "version": "mYGAO3MT" },
+        { "slug": "rctmod", "version": "ITPewVPq" },
         { "slug": "relics-mod", "version": "WKEe9sPL" },
         { "slug": "reliquified-ars-nouveau", "version": "xtS9iqts" },
         { "slug": "reliquified-artifacts", "version": "rAl46NpA" },
@@ -131,14 +141,18 @@
     "shaderpacks": [
         { "slug": "bsl-shaders", "version": "10.1.8" },
         { "slug": "complementary-reimagined", "version": "r5.9.3" },
-        { "slug": "complementary-unbound", "version": "r5.9.3" }
+        { "slug": "complementary-unbound", "version": "r5.9.3" },
+        { "slug": "photon-shader", "version": "gUv7fBPN" },
+        { "slug": "solas-shader", "version": "KcfQaN5J" },
+        { "slug": "bliss-shader", "version": "kC2Y8q1P" }
     ],
     "resourcepacks": [
         { "slug": "fresh-animations", "version": "xN57JJts" },
         { "slug": "fresh-animations-extensions", "version": "RfJ3uz2J" },
         { "slug": "better-mob-models", "version": "EMsW9nQI" },
         { "slug": "cobblemon-interface", "version": "8SjyMuZO" },
-        { "slug": "cobblemon-interface-modded", "version": "pfFd0Jh4" }
+        { "slug": "cobblemon-interface-modded", "version": "pfFd0Jh4" },
+        { "slug": "rct-trainer-textures-plus", "version": "C8AKk01H" }
     ],
     "configs": [
         {
@@ -157,12 +171,16 @@
             "_defaults": {
                 "playerDamagePokemon": true,
                 "pokemonPerChunk": 1.0,
-                "maximumSpawnsPerPass": 8
+                "maximumSpawnsPerPass": 8,
+                "ticksBetweenSpawnAttempts": 20.0,
+                "minimumDistanceBetweenEntities": 8.0
             },
             "set": {
                 "playerDamagePokemon": false,
-                "pokemonPerChunk": 0.5,
-                "maximumSpawnsPerPass": 4
+                "pokemonPerChunk": 0.3,
+                "maximumSpawnsPerPass": 3,
+                "ticksBetweenSpawnAttempts": 40.0,
+                "minimumDistanceBetweenEntities": 12.0
             }
         },
         {
