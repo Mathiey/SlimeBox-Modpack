@@ -1,9 +1,9 @@
 {
     "name": "SlimeBox",
-    "version": "1.2.32",
+    "version": "1.2.33",
     "minecraft": "1.21.1",
     "loader": "neoforge",
-    "loaderVersion": "21.1.262",
+    "loaderVersion": "21.1.259",
     "mods": [
         { "slug": "accessories", "version": "Fb55Fgjz" },
         { "slug": "ad-astra", "version": "1.16.26" },
@@ -33,7 +33,6 @@
         { "slug": "cloth-config", "version": "15.0.140+neoforge" },
         { "slug": "cobblefurnies", "version": "Ynk3uYUi" },
         { "slug": "cobblemon", "version": "1.8.2" },
-        { "slug": "cobblemon-fight-or-flight-reborn", "version": "IYZaXJ3Y" },
         { "slug": "cobblemon-mega-showdown", "version": "C0yyAEcs" },
         { "slug": "cobblemon-pokenav", "version": "qbUwxhni" },
         { "slug": "cobbreeding", "version": "jzxflH2c" },
