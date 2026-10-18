@@ -1,1 +1,10 @@
-
+{
+    "shaderpacks": [
+        { "slug": "bsl-shaders", "version": "10.1.8" },
+        { "slug": "complementary-reimagined", "version": "r5.9.3" },
+        { "slug": "complementary-unbound", "version": "r5.9.3" },
+        { "slug": "photon-shader", "version": "gUv7fBPN" },
+        { "slug": "solas-shader", "version": "KcfQaN5J" },
+        { "slug": "bliss-shader", "version": "kC2Y8q1P" }
+    ]
+}
