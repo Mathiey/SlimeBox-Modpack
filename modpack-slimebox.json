@@ -1,9 +1,9 @@
 {
     "name": "SlimeBox",
-    "version": "1.2.32",
+    "version": "1.2.31",
     "minecraft": "1.21.1",
     "loader": "neoforge",
-    "loaderVersion": "21.1.262",
+    "loaderVersion": "21.1.259",
     "mods": [
         { "slug": "accessories", "version": "Fb55Fgjz" },
         { "slug": "ad-astra", "version": "1.16.26" },
@@ -142,22 +142,6 @@
         { "slug": "reliquified-l-ender-s-cataclysm-new-relics-fix", "version": "1.0.3", "source": "curseforge", "projectId": 1665965, "fileId": 8936348 },
         { "slug": "reliquified-twilight-forest-new-relics-fix", "version": "1.0.5", "source": "curseforge", "projectId": 1664403, "fileId": 9155828 },
         { "slug": "the-twilight-forest", "version": "4.8.3345", "source": "curseforge", "projectId": 227639, "fileId": 7797302 }
-    ],
-    "shaderpacks": [
-        { "slug": "bsl-shaders", "version": "10.1.8" },
-        { "slug": "complementary-reimagined", "version": "r5.9.3" },
-        { "slug": "complementary-unbound", "version": "r5.9.3" },
-        { "slug": "photon-shader", "version": "gUv7fBPN" },
-        { "slug": "solas-shader", "version": "KcfQaN5J" },
-        { "slug": "bliss-shader", "version": "kC2Y8q1P" }
-    ],
-    "resourcepacks": [
-        { "slug": "fresh-animations", "version": "xN57JJts" },
-        { "slug": "fresh-animations-extensions", "version": "RfJ3uz2J" },
-        { "slug": "better-mob-models", "version": "EMsW9nQI" },
-        { "slug": "cobblemon-interface", "version": "8SjyMuZO" },
-        { "slug": "cobblemon-interface-modded", "version": "pfFd0Jh4" },
-        { "slug": "rct-trainer-textures-plus", "version": "C8AKk01H" }
     ],
     "configs": [
         {
