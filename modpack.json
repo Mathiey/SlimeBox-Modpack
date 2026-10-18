@@ -1,9 +1,9 @@
 {
     "name": "SlimeBox",
-    "version": "1.2.30",
+    "version": "1.2.31",
     "minecraft": "1.21.1",
     "loader": "neoforge",
-    "loaderVersion": "21.1.259",
+    "loaderVersion": "21.1.262",
     "mods": [
         { "slug": "accessories", "version": "Fb55Fgjz" },
         { "slug": "ad-astra", "version": "1.16.26" },
@@ -275,6 +275,17 @@
                 "Spawning.spawnIntervalTicks": 1200,
                 "Spawning.globalSpawnChance": 0.5,
                 "Spawning.despawnTicksIfUnseen": 2400
+            }
+        },
+        {
+            "file": "config/jobsplus-common.yaml",
+            "_defaults": {
+                "jobs.experience_formula": "100 + level * level * 0.5791",
+                "jobs.experience.xp_multiplier": 1.0
+            },
+            "set": {
+                "jobs.experience_formula": "1000 + level * level * 1.3",
+                "jobs.experience.xp_multiplier": 1.0
             }
         }
     ]
