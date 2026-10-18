@@ -1,6 +1,6 @@
 {
     "name": "SlimeBox",
-    "version": "1.2.25",
+    "version": "1.2.30",
     "minecraft": "1.21.1",
     "loader": "neoforge",
     "loaderVersion": "21.1.259",
@@ -13,6 +13,7 @@
         { "slug": "aquaculture", "version": "5pbz0ETj" },
         { "slug": "aquaculture-delight", "version": "VFpyJiVp" },
         { "slug": "aquamirae", "version": "RSbxcVPE" },
+        { "slug": "arc", "version": "gTreBhs6" },
         { "slug": "architectury-api", "version": "13.0.11+neoforge" },
         { "slug": "ars-additions", "version": "aQ0r5GD2" },
         { "slug": "ars-creo", "version": "LqOllHms" },
@@ -66,8 +67,10 @@
         { "slug": "iris", "version": "1.8.14-beta.1+1.21.1-neoforge" },
         { "slug": "irons-lib", "version": "lUwUKYPl" },
         { "slug": "irons-spells-n-spellbooks", "version": "slKLosTb" },
+        { "slug": "item-restrictions", "version": "8928VcTu" },
         { "slug": "jade", "version": "15.10.6+neoforge" },
         { "slug": "jei", "version": "iv3KiVkE" },
+        { "slug": "jobsplus", "version": "HHK264G0" },
         { "slug": "journeymap", "version": "1.21.1-6.0.9+neoforge" },
         { "slug": "kotlin-for-forge", "version": "5.12.0" },
         { "slug": "l_enders-cataclysm", "version": "PsPYpoCC" },
@@ -115,10 +118,12 @@
         { "slug": "towns-and-towers", "version": "DZxwgj6V" },
         { "slug": "trofers", "version": "FrbNhSab" },
         { "slug": "twilight-delight", "version": "373z6J9B" },
+        { "slug": "ui-lib", "version": "XSWl7TVm" },
         { "slug": "waystones", "version": "21.1.46+neoforge-1.21.1" },
         { "slug": "when-dungeons-arise", "version": "XIRJSFQ0" },
         { "slug": "yacl", "version": "3.8.2+1.21.1-neoforge" },
         { "slug": "yagm", "version": "l3oKyWhb" },
+        { "slug": "yaml-config", "version": "KDUgkC1O" },
         { "slug": "yungs-api", "version": "1.21.1-NeoForge-5.1.9" },
         { "slug": "yungs-better-desert-temples", "version": "1.21.1-NeoForge-4.1.5" },
         { "slug": "yungs-better-dungeons", "version": "1.21.1-NeoForge-5.1.4" },
@@ -253,6 +258,23 @@
             },
             "set": {
                 "allowPickingUpBlocks": false
+            }
+        },
+        {
+            "file": "config/rctmod-server.toml",
+            "_defaults": {
+                "Spawning.maxTrainersPerPlayer": 12,
+                "Spawning.maxTrainersTotal": 60,
+                "Spawning.spawnIntervalTicks": 180,
+                "Spawning.globalSpawnChance": 0.85,
+                "Spawning.despawnTicksIfUnseen": 6000
+            },
+            "set": {
+                "Spawning.maxTrainersPerPlayer": 2,
+                "Spawning.maxTrainersTotal": 20,
+                "Spawning.spawnIntervalTicks": 1200,
+                "Spawning.globalSpawnChance": 0.5,
+                "Spawning.despawnTicksIfUnseen": 2400
             }
         }
     ]
