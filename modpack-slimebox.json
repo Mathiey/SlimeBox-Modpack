@@ -1,9 +1,9 @@
 {
     "name": "SlimeBox",
-    "version": "1.2.31",
+    "version": "1.2.32",
     "minecraft": "1.21.1",
     "loader": "neoforge",
-    "loaderVersion": "21.1.259",
+    "loaderVersion": "21.1.262",
     "mods": [
         { "slug": "accessories", "version": "Fb55Fgjz" },
         { "slug": "ad-astra", "version": "1.16.26" },
