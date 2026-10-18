@@ -1,1 +1,10 @@
-
+{
+    "resourcepacks": [
+        { "slug": "fresh-animations", "version": "xN57JJts" },
+        { "slug": "fresh-animations-extensions", "version": "RfJ3uz2J" },
+        { "slug": "better-mob-models", "version": "EMsW9nQI" },
+        { "slug": "cobblemon-interface", "version": "8SjyMuZO" },
+        { "slug": "cobblemon-interface-modded", "version": "pfFd0Jh4" },
+        { "slug": "rct-trainer-textures-plus", "version": "C8AKk01H" }
+    ]
+}
