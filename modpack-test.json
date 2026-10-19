@@ -1,18 +1,275 @@
 {
     "name": "SlimeBox Test",
-    "version": "0.1.2",
+    "version": "0.1.5",
     "minecraft": "1.21.1",
     "loader": "neoforge",
     "loaderVersion": "21.1.262",
     "mods": [
+        { "slug": "accessories", "version": "Fb55Fgjz" },
+        { "slug": "ad-astra", "version": "1.16.26" },
         { "slug": "ae2", "version": "19.2.18" },
+        { "slug": "aether", "version": "1.21.1-1.5.10-neoforge" },
+        { "slug": "appleskin", "version": "uAKA6Laj" },
+        { "slug": "aquaculture", "version": "5pbz0ETj" },
+        { "slug": "aquaculture-delight", "version": "VFpyJiVp" },
+        { "slug": "aquamirae", "version": "RSbxcVPE" },
+        { "slug": "arc", "version": "gTreBhs6" },
+        { "slug": "architectury-api", "version": "13.0.11+neoforge" },
+        { "slug": "ars-additions", "version": "aQ0r5GD2" },
+        { "slug": "ars-creo", "version": "LqOllHms" },
         { "slug": "ars-nouveau", "version": "yWDnir1o" },
+        { "slug": "arsdelight", "version": "JtS0qjOn" },
+        { "slug": "artifacts", "version": "lMfuK0o7" },
+        { "slug": "athena-ctm", "version": "dJgL278E" },
+        { "slug": "balm", "version": "21.0.66+neoforge-1.21.1" },
+        { "slug": "better-archeology", "version": "zTMR6t3J" },
+        { "slug": "better-combat", "version": "2.4.0+1.21.1-neoforge" },
+        { "slug": "block-factorys-biomes", "version": "sftckuFv" },
+        { "slug": "block-pack", "version": "Uyd3o6pc" },
+        { "slug": "bossesrise", "version": "lE9PF6Wp" },
+        { "slug": "chefs-delight", "version": "N8hZwT7r" },
+        { "slug": "chipped", "version": "eqVowbGc" },
+        { "slug": "chunky", "version": "LuFhm4eU" },
+        { "slug": "cloth-config", "version": "15.0.140+neoforge" },
+        { "slug": "cobblefurnies", "version": "Ynk3uYUi" },
+        { "slug": "cobblemon", "version": "1.8.2" },
+        { "slug": "cobblemon-mega-showdown", "version": "C0yyAEcs" },
+        { "slug": "cobblemon-pokenav", "version": "qbUwxhni" },
+        { "slug": "cobbreeding", "version": "jzxflH2c" },
+        { "slug": "common-storage-lib", "version": "SCkdlli6" },
         { "slug": "create", "version": "6.0.10+mc1.21.1" },
         { "slug": "createaddition", "version": "hsjVajlP" },
+        { "slug": "creeper-no-break-blocks", "version": "j06qLaSL" },
+        { "slug": "creeper-overhaul", "version": "HNrAYCLH" },
+        { "slug": "cristel-lib", "version": "neoforge-1.21.1-3.1.7" },
+        { "slug": "critters-and-companions", "version": "aeDUpTJS" },
         { "slug": "curios", "version": "9.5.1+1.21.1" },
+        { "slug": "deeperdarker", "version": "1.4.1-neoforge-1.21.1" },
+        { "slug": "dungeons-and-taverns", "version": "v4.4.4+mod" },
         { "slug": "emi", "version": "1.1.24+1.21.1+neoforge" },
+        { "slug": "enderio", "version": "2bHl1dCW" },
+        { "slug": "enderman-overhaul", "version": "TH9YXp9r" },
+        { "slug": "ends-delight", "version": "YTApg6Hl" },
+        { "slug": "entity-model-features", "version": "197m3VoU" },
+        { "slug": "entityculling", "version": "eieYbWYb" },
+        { "slug": "entitytexturefeatures", "version": "lwNx1nD1" },
+        { "slug": "farmers-delight", "version": "1.21.1-1.3.4" },
+        { "slug": "ferrite-core", "version": "7.0.3-neoforge" },
+        { "slug": "fragmentum", "version": "kCXNhuIV" },
         { "slug": "geckolib", "version": "Grwn5rUB" },
         { "slug": "guideme", "version": "21.1.19" },
+        { "slug": "handcrafted", "version": "4.0.3" },
+        { "slug": "immediatelyfast", "version": "EJzmEPZV" },
+        { "slug": "immersive-ui", "version": "wtmSnIFo" },
+        { "slug": "immersiveengineering", "version": "uNRARSH2" },
+        { "slug": "incendium", "version": "5.4.4" },
+        { "slug": "iris", "version": "1.8.14-beta.1+1.21.1-neoforge" },
+        { "slug": "irons-lib", "version": "lUwUKYPl" },
+        { "slug": "irons-spells-n-spellbooks", "version": "slKLosTb" },
+        { "slug": "item-restrictions", "version": "8928VcTu" },
+        { "slug": "jade", "version": "15.10.6+neoforge" },
+        { "slug": "jei", "version": "iv3KiVkE" },
+        { "slug": "jobsplus", "version": "HHK264G0" },
+        { "slug": "journeymap", "version": "1.21.1-6.0.9+neoforge" },
+        { "slug": "kotlin-for-forge", "version": "5.12.0" },
+        { "slug": "l_enders-cataclysm", "version": "PsPYpoCC" },
+        { "slug": "legendary-monuments", "version": "oRFso4Pk" },
+        { "slug": "lionfish-api", "version": "fTRMVgyZ" },
+        { "slug": "lithium", "version": "mc1.21.1-0.15.4-neoforge" },
+        { "slug": "lithostitched", "version": "cZu4cHY3" },
+        { "slug": "lootr", "version": "1.21.1-1.11.38.127" },
+        { "slug": "mekanism", "version": "5KzzycBT" },
+        { "slug": "mekanism-generators", "version": "a6gl7srE" },
+        { "slug": "modernfix", "version": "5.27.26+mc1.21.1" },
+        { "slug": "moonlight", "version": "fAIfWX6M" },
+        { "slug": "my-nethers-delight", "version": "SGFJBL5q" },
+        { "slug": "naturalist", "version": "2.0.5+1.21.1-neoforge" },
+        { "slug": "nullscape", "version": "1.2.14" },
+        { "slug": "oceans-delight", "version": "ja5Qg1xw" },
+        { "slug": "owo-lib", "version": "wbdHEItB" },
+        { "slug": "playeranimator", "version": "2.0.4+1.21.1-forge" },
+        { "slug": "polymorph", "version": "9yWvrF5o" },
+        { "slug": "radical-gyms-cobblemon", "version": "TWiuaa3o" },
+        { "slug": "rctapi", "version": "mYGAO3MT" },
+        { "slug": "rctmod", "version": "ITPewVPq" },
+        { "slug": "relics-mod", "version": "WKEe9sPL" },
+        { "slug": "reliquified-ars-nouveau", "version": "xtS9iqts" },
+        { "slug": "reliquified-artifacts", "version": "rAl46NpA" },
+        { "slug": "reliquified-irons-spells-n-spellbooks", "version": "3c2Q2RnP" },
+        { "slug": "reliquified-l-ender-s-cataclysm", "version": "ZHAIRSeF" },
+        { "slug": "reliquified-twilight-forest", "version": "9UsckWGL" },
+        { "slug": "resourceful-config", "version": "3.0.11" },
+        { "slug": "resourceful-lib", "version": "3.0.12" },
+        { "slug": "shatterbyte-lib", "version": "yVCCi6TK" },
+        { "slug": "slice-and-dice", "version": "D6mQaFRW" },
+        { "slug": "sodium", "version": "mc1.21.1-0.8.13-neoforge" },
+        { "slug": "sophisticated-backpacks", "version": "1.21.1-3.26.12.2208" },
+        { "slug": "sophisticated-backpacks-create-integration", "version": "1.21.1-0.2.3.194" },
+        { "slug": "sophisticated-core", "version": "DAcZAWzl" },
+        { "slug": "sophisticated-inventory-interactions", "version": "1.21.1-0.1.14.224" },
+        { "slug": "sophisticated-storage", "version": "6B0lbqeG" },
+        { "slug": "sophisticated-storage-create-integration", "version": "1.21.1-0.1.23.246" },
+        { "slug": "sophisticated-storage-in-motion", "version": "1.21.1-0.10.36.381" },
+        { "slug": "spark", "version": "v5qtqRQi" },
+        { "slug": "supplementaries", "version": "rWq0ko29" },
+        { "slug": "tectonic", "version": "3.0.28-neoforge-21.1" },
+        { "slug": "terralith", "version": "IY93YaEe" },
+        { "slug": "towns-and-towers", "version": "DZxwgj6V" },
+        { "slug": "trofers", "version": "FrbNhSab" },
+        { "slug": "twilight-delight", "version": "373z6J9B" },
+        { "slug": "ui-lib", "version": "XSWl7TVm" },
+        { "slug": "waystones", "version": "21.1.46+neoforge-1.21.1" },
+        { "slug": "when-dungeons-arise", "version": "XIRJSFQ0" },
+        { "slug": "yacl", "version": "3.8.2+1.21.1-neoforge" },
+        { "slug": "yagm", "version": "l3oKyWhb" },
+        { "slug": "yaml-config", "version": "KDUgkC1O" },
+        { "slug": "yungs-api", "version": "1.21.1-NeoForge-5.1.9" },
+        { "slug": "yungs-better-desert-temples", "version": "1.21.1-NeoForge-4.1.5" },
+        { "slug": "yungs-better-dungeons", "version": "1.21.1-NeoForge-5.1.4" },
+        { "slug": "yungs-better-end-island", "version": "1.21.1-NeoForge-3.1.2" },
+        { "slug": "yungs-better-jungle-temples", "version": "1.21.1-NeoForge-3.1.2" },
+        { "slug": "yungs-better-mineshafts", "version": "1.21.1-NeoForge-5.1.1" },
+        { "slug": "yungs-better-nether-fortresses", "version": "1.21.1-NeoForge-3.1.5" },
+        { "slug": "yungs-better-ocean-monuments", "version": "1.21.1-NeoForge-4.1.2" },
+        { "slug": "yungs-better-strongholds", "version": "1.21.1-NeoForge-5.1.3" },
+        { "slug": "yungs-better-witch-huts", "version": "1.21.1-NeoForge-4.1.1" },
+        { "slug": "yungs-bridges", "version": "1.21.1-NeoForge-5.1.1" },
+        { "slug": "yungs-extras", "version": "1.21.1-NeoForge-5.1.1" },
+        { "slug": "ftb-chunks", "version": "2101.1.22", "source": "curseforge", "projectId": 314906, "fileId": 8791113 },
+        { "slug": "ftb-library", "version": "2101.1.37", "source": "curseforge", "projectId": 404465, "fileId": 9008089 },
+        { "slug": "ftb-teams", "version": "2101.1.11", "source": "curseforge", "projectId": 404468, "fileId": 8724782 },
+        { "slug": "reliquified-l-ender-s-cataclysm-new-relics-fix", "version": "1.0.3", "source": "curseforge", "projectId": 1665965, "fileId": 8936348 },
+        { "slug": "reliquified-twilight-forest-new-relics-fix", "version": "1.0.5", "source": "curseforge", "projectId": 1664403, "fileId": 9155828 },
+        { "slug": "the-twilight-forest", "version": "4.8.3345", "source": "curseforge", "projectId": 227639, "fileId": 7797302 }
     ],
-    "configs": []
+    "configs": [
+        {
+            "file": "config/Mekanism/world.toml",
+            "_defaults": {
+                "uranium.shouldGenerate": true,
+                "lead.shouldGenerate": true
+            },
+            "set": {
+                "uranium.shouldGenerate": false,
+                "lead.shouldGenerate": false
+            }
+        },
+        {
+            "file": "config/cobblemon/main.json",
+            "_defaults": {
+                "playerDamagePokemon": true,
+                "pokemonPerChunk": 1.0,
+                "maximumSpawnsPerPass": 8,
+                "ticksBetweenSpawnAttempts": 20.0,
+                "minimumDistanceBetweenEntities": 8.0
+            },
+            "set": {
+                "playerDamagePokemon": false,
+                "pokemonPerChunk": 0.3,
+                "maximumSpawnsPerPass": 3,
+                "ticksBetweenSpawnAttempts": 40.0,
+                "minimumDistanceBetweenEntities": 12.0
+            }
+        },
+        {
+            "file": "config/Mekanism/general.toml",
+            "_defaults": {
+                "digital_miner.ticksPerMine": 80,
+                "digital_miner.maxRadius": 32,
+                "digital_miner.silkMultiplier": 12
+            },
+            "set": {
+                "digital_miner.ticksPerMine": 800,
+                "digital_miner.maxRadius": 16,
+                "digital_miner.silkMultiplier": 40
+            }
+        },
+        {
+            "file": "config/Mekanism/machine-usage.toml",
+            "_defaults": {
+                "digitalMiner": 1000
+            },
+            "set": {
+                "digitalMiner": 10000
+            }
+        },
+        {
+            "file": "config/Mekanism/tiers.toml",
+            "_defaults": {
+                "energy_cubes.basicCapacity": 4000000,
+                "energy_cubes.basicOutput": 4000,
+                "energy_cubes.advancedCapacity": 16000000,
+                "energy_cubes.advancedOutput": 16000,
+                "energy_cubes.eliteCapacity": 64000000,
+                "energy_cubes.eliteOutput": 64000,
+                "energy_cubes.ultimateCapacity": 256000000,
+                "energy_cubes.ultimateOutput": 256000
+            },
+            "set": {
+                "energy_cubes.basicCapacity": 40000000,
+                "energy_cubes.basicOutput": 40000,
+                "energy_cubes.advancedCapacity": 160000000,
+                "energy_cubes.advancedOutput": 160000,
+                "energy_cubes.eliteCapacity": 640000000,
+                "energy_cubes.eliteOutput": 640000,
+                "energy_cubes.ultimateCapacity": 2560000000,
+                "energy_cubes.ultimateOutput": 2560000
+            }
+        },
+        {
+            "file": "config/curios-server.toml",
+            "_defaults": {
+                "keepCurios": "DEFAULT"
+            },
+            "set": {
+                "keepCurios": "ON"
+            }
+        },
+        {
+            "file": "config/creeperoverhaul.jsonc",
+            "_defaults": {
+                "destroyBlocks": true
+            },
+            "set": {
+                "destroyBlocks": false
+            }
+        },
+        {
+            "file": "config/endermanoverhaul.jsonc",
+            "_defaults": {
+                "allowPickingUpBlocks": true
+            },
+            "set": {
+                "allowPickingUpBlocks": false
+            }
+        },
+        {
+            "file": "config/rctmod-server.toml",
+            "_defaults": {
+                "Spawning.maxTrainersPerPlayer": 12,
+                "Spawning.maxTrainersTotal": 60,
+                "Spawning.spawnIntervalTicks": 180,
+                "Spawning.globalSpawnChance": 0.85,
+                "Spawning.despawnTicksIfUnseen": 6000
+            },
+            "set": {
+                "Spawning.maxTrainersPerPlayer": 2,
+                "Spawning.maxTrainersTotal": 20,
+                "Spawning.spawnIntervalTicks": 1200,
+                "Spawning.globalSpawnChance": 0.5,
+                "Spawning.despawnTicksIfUnseen": 2400
+            }
+        },
+        {
+            "file": "config/jobsplus-common.yaml",
+            "_defaults": {
+                "jobs.experience_formula": "100 + level * level * 0.5791",
+                "jobs.experience.xp_multiplier": 1.0
+            },
+            "set": {
+                "jobs.experience_formula": "1000 + level * level * 1.3",
+                "jobs.experience.xp_multiplier": 1.0
+            }
+        }
+    ]
 }
