@@ -1,13 +1,18 @@
 {
     "name": "SlimeBox Test",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "minecraft": "1.21.1",
     "loader": "neoforge",
     "loaderVersion": "21.1.262",
     "mods": [
         { "slug": "ae2", "version": "19.2.18" },
         { "slug": "ars-nouveau", "version": "yWDnir1o" },
+        { "slug": "create", "version": "6.0.10+mc1.21.1" },
+        { "slug": "createaddition", "version": "hsjVajlP" },
+        { "slug": "curios", "version": "9.5.1+1.21.1" },
         { "slug": "emi", "version": "1.1.24+1.21.1+neoforge" },
+        { "slug": "geckolib", "version": "Grwn5rUB" },
+        { "slug": "guideme", "version": "21.1.19" },
     ],
     "configs": []
 }
