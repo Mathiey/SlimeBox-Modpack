@@ -1,9 +1,13 @@
 {
     "name": "SlimeBox Test",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "minecraft": "1.21.1",
     "loader": "neoforge",
     "loaderVersion": "21.1.262",
-    "mods": [],
+    "mods": [
+        { "slug": "ae2", "version": "19.2.18" },
+        { "slug": "ars-nouveau", "version": "yWDnir1o" },
+        { "slug": "emi", "version": "1.1.24+1.21.1+neoforge" },
+    ],
     "configs": []
 }
