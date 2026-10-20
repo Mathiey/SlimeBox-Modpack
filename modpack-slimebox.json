@@ -203,7 +203,15 @@
                 "energy_cubes.eliteCapacity": 64000000,
                 "energy_cubes.eliteOutput": 64000,
                 "energy_cubes.ultimateCapacity": 256000000,
-                "energy_cubes.ultimateOutput": 256000
+                "energy_cubes.ultimateOutput": 256000,
+                "fluid_tanks.basicCapacity": 32000,
+                "fluid_tanks.advancedCapacity": 64000,
+                "fluid_tanks.eliteCapacity": 128000,
+                "fluid_tanks.ultimateCapacity": 256000,
+                "chemical_tanks.basicCapacity": 64000,
+                "chemical_tanks.advancedCapacity": 256000,
+                "chemical_tanks.eliteCapacity": 1024000,
+                "chemical_tanks.ultimateCapacity": 8192000
             },
             "set": {
                 "energy_cubes.basicCapacity": 40000000,
@@ -213,7 +221,15 @@
                 "energy_cubes.eliteCapacity": 640000000,
                 "energy_cubes.eliteOutput": 640000,
                 "energy_cubes.ultimateCapacity": 2560000000,
-                "energy_cubes.ultimateOutput": 2560000
+                "energy_cubes.ultimateOutput": 2560000,
+                "fluid_tanks.basicCapacity": 320000,
+                "fluid_tanks.advancedCapacity": 640000,
+                "fluid_tanks.eliteCapacity": 1280000,
+                "fluid_tanks.ultimateCapacity": 2560000,
+                "chemical_tanks.basicCapacity": 640000,
+                "chemical_tanks.advancedCapacity": 2560000,
+                "chemical_tanks.eliteCapacity": 10240000,
+                "chemical_tanks.ultimateCapacity": 81920000
             }
         },
         {
