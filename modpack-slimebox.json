@@ -274,6 +274,40 @@
                 "Spawning.globalSpawnChance": 0.5,
                 "Spawning.despawnTicksIfUnseen": 2400
             }
+        },
+        {
+            "file": "config/tectonic.json",
+            "_defaults": {
+                "continents.ocean_offset": -0.8,
+                "continents.continents_scale": 0.13
+            },
+            "set": {
+                "continents.ocean_offset": -0.6,
+                "continents.continents_scale": 0.11
+            }
+        },
+        {
+            "file": "config/obscuria/aquamirae-common.toml",
+            "_defaults": {
+                "difficulty": "BALANCED",
+                "ice_maze_biomes": ["minecraft:deep_frozen_ocean", "minecraft:deep_cold_ocean"],
+                "pirate_ship_placement_spacing": 35,
+                "pirate_ship_placement_separation": 10,
+                "pirate_outpost_placement_spacing": 18,
+                "pirate_outpost_placement_separation": 10,
+                "pirate_shelter_placement_spacing": 30,
+                "pirate_shelter_placement_separation": 20
+            },
+            "set": {
+                "difficulty": "AQUAMIRAE",
+                "ice_maze_biomes": ["minecraft:deep_frozen_ocean"],
+                "pirate_ship_placement_spacing": 70,
+                "pirate_ship_placement_separation": 20,
+                "pirate_outpost_placement_spacing": 36,
+                "pirate_outpost_placement_separation": 20,
+                "pirate_shelter_placement_spacing": 60,
+                "pirate_shelter_placement_separation": 40
+            }
         }
     ]
 }
