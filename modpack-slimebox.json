@@ -1,6 +1,6 @@
 {
     "name": "SlimeBox",
-    "version": "1.2.42",
+    "version": "1.2.43",
     "minecraft": "1.21.1",
     "loader": "neoforge",
     "loaderVersion": "21.1.264",
@@ -44,6 +44,7 @@
         { "slug": "critters-and-companions", "version": "aeDUpTJS" },
         { "slug": "curios", "version": "9.5.1+1.21.1" },
         { "slug": "deeperdarker", "version": "1.4.1-neoforge-1.21.1" },
+        { "slug": "distanthorizons", "version": "3.3.3-1.21.1" },
         { "slug": "dungeons-and-taverns", "version": "v4.4.4+mod" },
         { "slug": "emi", "version": "1.1.24+1.21.1+neoforge" },
         { "slug": "enderio", "version": "2bHl1dCW" },
@@ -116,6 +117,7 @@
         { "slug": "twilight-delight", "version": "3.2.7" },
         { "slug": "waystones", "version": "21.1.46+neoforge-1.21.1" },
         { "slug": "when-dungeons-arise", "version": "XIRJSFQ0" },
+        { "slug": "worldedit", "version": "WTAFvuRx" },
         { "slug": "yacl", "version": "3.8.2+1.21.1-neoforge" },
         { "slug": "yagm", "version": "l3oKyWhb" },
         { "slug": "yungs-api", "version": "1.21.1-NeoForge-5.1.9" },
